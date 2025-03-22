@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>FestivalSync</title>
+    <title>My Posts - FestivalSync</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/mypost.css"/>
 </head>
 <body>
     <div class="navbar">
@@ -36,17 +36,11 @@
             </a>
         </div>
         <div class="main-content">
-            <div class="create-post">
-                <div class="input-group">
-                    <textarea placeholder="What's on your mind, Alan?" rows="3"></textarea>
-                    <div class="file-input-wrapper">
-                        <input accept="image/*" id="file-input" type="file"/>
-                        <label for="file-input">
-                            <i class="fas fa-camera"></i>
-                        </label>
-                    </div>
-                </div>
-                <button>Post</button>
+            <div class="my-posts-header">
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                </a>
+                <h2>My Posts</h2> 
             </div>
             <div class="posts-wrapper"></div>
         </div>
@@ -66,6 +60,6 @@
             </a>
         </div>
     </div>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mypost.js"></script>
 </body>
 </html>
