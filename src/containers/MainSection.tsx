@@ -151,7 +151,7 @@ export default function MainSection() {
               <span className="text-sm">Loading more posts...</span>
             </div>
           ) : !hasNextPage && fests.length > 0 ? (
-            <div className="text-gray-400 text-sm">You've reached the end</div>
+            <div className="text-gray-400 text-sm">You have reached the end</div>
           ) : null}
         </div>
       </div>
