@@ -2,7 +2,6 @@
 "use client";
 
 import Image from "next/image";
-import { IoMdSend } from "react-icons/io";
 import PostCard from "@/components/Card/PostCard";
 import { useFetchFest, useNewFest } from "@/app/(main)/api/useFest";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";

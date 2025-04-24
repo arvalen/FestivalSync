@@ -2,7 +2,6 @@
 
 import React from "react";
 import { useFetchProfileInfo } from "@/app/(main)/api/useProfile";
-import MenuSidebar from "@/components/MenuSidebar";
 import { ENV } from "@/configs/environment";
 import { useSetPicture, useSetUsername } from "@/lib/utils";
 import { typecastProfileResponse } from "@/types/response";
@@ -12,7 +11,6 @@ import { useEffect } from "react";
 import { CgProfile } from "react-icons/cg";
 import { FaUserFriends } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
-import { removeCookies } from "@/modules/cookies";
 
 export default function Sidebar() {
   const { data } = useFetchProfileInfo();

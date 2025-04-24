@@ -1,6 +1,5 @@
 "use client";
 
-import ButtonPost from "@/components/ButtonPost";
 import SuggestionCard from "@/components/Card/SuggestionCard";
 
 export default function RightSidebar() {
