@@ -109,7 +109,7 @@ export default function FormUpdateProfile({
               <div className="flex justify-end my-3">
                 <button
                   type="submit"
-                  className="flex justify-center items-center gap-2 mt-2 bg-blue-800 text-white p-2 px-4 rounded-full hover:bg-blue-700 duration-200 transition-all ease-in-out cursor-pointer"
+                  className="flex justify-center items-center gap-2 mt-2 bg-blue-600 text-white p-2 px-4 rounded-lg hover:bg-blue-500 duration-200 transition-all ease-in-out cursor-pointer"
                 >
                   <IoMdSend /> Update
                 </button>
