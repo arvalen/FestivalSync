@@ -56,7 +56,7 @@ export default function RightSidebar() {
           <span>·</span>
           <a href="#" className="hover:underline">Cookies</a>
         </div>
-        <p className="mt-2">© 2024 FestivaSync</p>
+        <p className="mt-2">© 2025 FestivaSync</p>
       </div>
     </div>
   );
