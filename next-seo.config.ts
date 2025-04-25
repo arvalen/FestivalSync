@@ -18,7 +18,7 @@ export const defaultSEOConfig = {
             },
         ],
     },
-    twitter: {
+    festivalsync: {
         handle: "@festivalsync",
         site: "@festivalsync",
         cardType: "summary_large_image",
